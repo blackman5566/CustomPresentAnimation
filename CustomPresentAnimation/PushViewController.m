@@ -20,8 +20,6 @@
 }
 
 - (IBAction)dismissAction:(id)sender {
-    self.transitioningDelegate = self;
-    self.modalPresentationStyle = UIModalPresentationCustom;
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
