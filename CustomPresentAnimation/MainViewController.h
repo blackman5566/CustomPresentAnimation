@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MainViewController.h
 //  CustomPresentAnimation
 //
 //  Created by AllenShiu on 2016/8/19.
@@ -7,9 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
-
+#import "CustomViewController.h"
+@interface MainViewController : CustomViewController
 
 @end
-
